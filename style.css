@@ -1,0 +1,125 @@
+body {
+  font-family: sans-serif;
+}
+h1::before {
+  content: "Sale";
+  background-color: red;
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  border-radius: 5px;
+  padding: 5px;
+  text-transform: capitalize;
+}
+h1::after {
+  content: "Sale";
+  background-color: red;
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  border-radius: 5px;
+  padding: 5px;
+  text-transform: capitalize;
+}
+.main-container {
+  margin: 0 auto;
+  padding: 50px 40px;
+  width: 700px;
+}
+.Product {
+  position: relative;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+.Product-title {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 30px 30px;
+  background-color: #f7f7f7;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.price {
+  font-weight: bold;
+  font-size: large;
+  margin: 0;
+}
+.f-ship {
+  color: #777777;
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+  background-color: rgb(75, 75, 214);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+img {
+  border-radius: 15px;
+  margin: 5px;
+  margin-top: 15px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  font-size: medium;
+}
+ul,
+li {
+  margin-left: 5px;
+  list-style: square;
+}
+.parent {
+  position: relative;
+  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.child-1 {
+  position: absolute;
+  left: 0;
+  background-color: black;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+.child-2 {
+  position: absolute;
+  left: 35px;
+  background-color: red;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+.child-3 {
+  position: absolute;
+  left: 69px;
+  background-color: green;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+.child-4 {
+  position: absolute;
+  left: 104px;
+  background-color: orange;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+.child-5 {
+  position: absolute;
+  left: 138px;
+  background-color: blue;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+h2 {
+  margin-top: 70px;
+}
